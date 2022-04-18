@@ -1,0 +1,11 @@
+1649430445766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNLq0Tn"
+[GFX1-]: glxtest: libpci missing
+1649430446191	Marionette	INFO	Marionette enabled
+
+(firefox:6103): LIBDBUSMENU-GLIB-WARNING **: 15:07:26.597: Unable to get session bus: Failed to execute child process “dbus-launch” (No such file or directory)
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNLq0Tn/search.json.mozlz4", (void 0)))
+1649430448722	Marionette	INFO	Listening on port 35593
+1649430449407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649430576856	Marionette	INFO	Stopped listening on port 35593
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
